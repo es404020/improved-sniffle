@@ -4,8 +4,8 @@
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd expense_tracker
+git clone https://github.com/es404020/improved-sniffle.git
+cd improved-sniffle
 ```
 
 2. Create a virtual environment
