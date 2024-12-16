@@ -58,7 +58,7 @@ python manage.py runserver
 Visit `/swagger/` or `/redoc/` for interactive API documentation.
 
 ## URL Reference
-Run tests using:
+Url using:
 ```bash
 http://127.0.0.1:8000/swagger/
 http://127.0.0.1:8000/redoc/

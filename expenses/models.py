@@ -16,7 +16,7 @@ class Expense(models.Model):
     amount = models.DecimalField(
         max_digits=10, 
         decimal_places=2, 
-        validators=[MinValueValidator(Decimal('0.01'))]  # Use Decimal for validation
+        validators=[MinValueValidator(Decimal('0.01'))]  
     )
     date = models.DateField()
     category = models.CharField(max_length=20)
